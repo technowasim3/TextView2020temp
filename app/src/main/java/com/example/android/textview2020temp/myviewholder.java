@@ -17,6 +17,6 @@ public class myviewholder extends RecyclerView.ViewHolder {
         imageView=(ImageView)itemView.findViewById(R.id.image_circle);
         textView1=(TextView)itemView.findViewById(R.id.text1);
         textView2=(TextView)itemView.findViewById(R.id.text2);
-        imageButton=(ImageButton)itemView.findViewById(R.id.imageButton);
+
     }
 }

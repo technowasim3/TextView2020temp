@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         holder.add(obj1);
 
         Model obj2=new Model();
-        obj1.setHeader("");
+        obj1.setHeader("Safdar");
         obj1.setDesc("I.G Colony,Kulti");
         obj1.setImagename(R.drawable.ic_baseline_account_circle_24);
         holder.add(obj2);
